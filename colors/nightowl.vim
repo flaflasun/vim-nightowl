@@ -46,7 +46,7 @@ if exists('syntax_on')
    syntax reset
 endif
 
-let g:colors_name='mycolor'
+let g:colors_name='nightowl'
 
 " }}}
 
