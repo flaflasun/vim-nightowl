@@ -1,7 +1,7 @@
 # Nightowl Color Scheme for Vim
 
 This color scheme uses a dark background.
-Linux and Mac, using a 256 colour enabled terminal.  
+Linux and Mac, using a 256 color enabled terminal.  
 
 ## Screenshots
 
