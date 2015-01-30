@@ -191,7 +191,7 @@ exe 'let s:attr_undl = " ' s:ui .'=UNDERLINE' .' term=UNDERLINE' .'"'
 " Vim Highlighting: {{{
 
 exe 'hi! TablineSel'   .s:fg_grey85          .s:bg_grey15         .s:attr_none
-exe 'hi! Tabline'      .s:fg_grey54          .s:bg_grey30         .s:attr_none
+exe 'hi! Tabline'      .s:fg_grey54          .s:bg_grey11         .s:attr_none
 exe 'hi! TablineFill'  .s:fg_grey85          .s:bg_grey11         .s:attr_none
 
 exe 'hi! Pmenu'        .s:fg_grey85          .s:bg_grey30         .s:attr_none
