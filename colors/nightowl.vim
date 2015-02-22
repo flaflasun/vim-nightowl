@@ -75,7 +75,6 @@ if has('gui_running')
   let s:indianred       = '#ff5f87'
   let s:lightgoldenrod1 = '#ffff5f'
   let s:lightgoldenrod2 = '#d7d787'
-  let s:lightslateblue  = '#8787ff'
   let s:lightsteelblue  = '#afafff'
   let s:magenta         = '#af00af'
   let s:mediumturquoise = '#5fd7d7'
@@ -108,7 +107,6 @@ else
   let s:indianred       = '204'
   let s:lightgoldenrod1 = '227'
   let s:lightgoldenrod2 = '186'
-  let s:lightslateblue  = '105'
   let s:lightsteelblue  = '147'
   let s:magenta         = '127'
   let s:mediumturquoise = '80'
@@ -137,12 +135,12 @@ exe 'let s:fg_darkgoldenrod   = " ' s:ui .'fg=' .s:darkgoldenrod   .'"'
 exe 'let s:fg_darkslategrey   = " ' s:ui .'fg=' .s:darkslategrey   .'"'
 exe 'let s:fg_green           = " ' s:ui .'fg=' .s:green           .'"'
 exe 'let s:fg_grey15          = " ' s:ui .'fg=' .s:grey15          .'"'
+exe 'let s:fg_grey30          = " ' s:ui .'fg=' .s:grey30          .'"'
 exe 'let s:fg_grey54          = " ' s:ui .'fg=' .s:grey54          .'"'
 exe 'let s:fg_grey85          = " ' s:ui .'fg=' .s:grey85          .'"'
 exe 'let s:fg_indianred       = " ' s:ui .'fg=' .s:indianred       .'"'
 exe 'let s:fg_lightgoldenrod1 = " ' s:ui .'fg=' .s:lightgoldenrod1 .'"'
 exe 'let s:fg_lightgoldenrod2 = " ' s:ui .'fg=' .s:lightgoldenrod2 .'"'
-exe 'let s:fg_lightslateblue  = " ' s:ui .'fg=' .s:lightslateblue  .'"'
 exe 'let s:fg_mediumturquoise = " ' s:ui .'fg=' .s:mediumturquoise .'"'
 exe 'let s:fg_none            = " ' s:ui .'fg=' .s:none            .'"'
 exe 'let s:fg_palegreen       = " ' s:ui .'fg=' .s:palegreen       .'"'
@@ -235,7 +233,7 @@ exe 'hi! Question'     .s:fg_blue            .s:bg_none           .s:attr_none
 
 exe 'hi! Directory'    .s:fg_mediumturquoise .s:bg_none           .s:attr_none
 exe 'hi! NonText'      .s:fg_lightgoldenrod2 .s:bg_none           .s:attr_bold
-exe 'hi! SpecialKey'   .s:fg_lightslateblue  .s:bg_none           .s:attr_bold
+exe 'hi! SpecialKey'   .s:fg_grey30          .s:bg_none           .s:attr_bold
 exe 'hi! Title'        .s:fg_cornsilk        .s:bg_none           .s:attr_bold
 
 " }}}
