@@ -79,7 +79,7 @@ if has('gui_running')
   let s:magenta         = '#af00af'
   let s:mediumturquoise = '#5fd7d7'
   let s:navyblue        = '#00005f'
-  let s:olenge          = '#875f00'
+  let s:orange          = '#875f00'
   let s:palegreen       = '#87d787'
   let s:red             = '#ff0000'
   let s:skyblue         = '#5fafd7'
@@ -111,7 +111,7 @@ else
   let s:magenta         = '127'
   let s:mediumturquoise = '80'
   let s:navyblue        = '17'
-  let s:olenge          = '94'
+  let s:orange          = '94'
   let s:palegreen       = '114'
   let s:red             = '196'
   let s:skyblue         = '74'
@@ -170,7 +170,7 @@ exe 'let s:bg_lightsteelblue  = " ' s:ui .'bg=' .s:lightsteelblue  .'"'
 exe 'let s:bg_magenta         = " ' s:ui .'bg=' .s:magenta         .'"'
 exe 'let s:bg_navyblue        = " ' s:ui .'bg=' .s:navyblue        .'"'
 exe 'let s:bg_none            = " ' s:ui .'bg=' .s:none            .'"'
-exe 'let s:bg_olenge          = " ' s:ui .'bg=' .s:olenge          .'"'
+exe 'let s:bg_orange          = " ' s:ui .'bg=' .s:orange          .'"'
 
 " }}}
 
@@ -210,7 +210,7 @@ exe 'hi! SignColumn'   .s:fg_none            .s:bg_grey11          .s:attr_none
 exe 'hi! Folded'       .s:fg_mediumturquoise .s:bg_grey30          .s:attr_none
 exe 'hi! FoldColumn'   .s:fg_mediumturquoise .s:bg_grey30          .s:attr_none
 exe 'hi! Visual'       .s:fg_none            .s:bg_grey30          .s:attr_none
-exe 'hi! IncSearch'    .s:fg_darkslategrey   .s:bg_olenge          .s:attr_none
+exe 'hi! IncSearch'    .s:fg_darkslategrey   .s:bg_orange          .s:attr_none
 exe 'hi! Search'       .s:fg_cornsilk        .s:bg_darkgoldenrod   .s:attr_none
 exe 'hi! SpellCap'     .s:fg_blue            .s:bg_darkblue        .s:attr_undl
 exe 'hi! SpellLocal'   .s:fg_green           .s:bg_darkgreen       .s:attr_undl
