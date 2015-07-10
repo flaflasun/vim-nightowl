@@ -62,7 +62,6 @@ if has('gui_running')
   let s:darkblue        = '#00005f'
   let s:darkgreen       = '#005f00'
   let s:darkred         = '#5f0000'
-  let s:darkslategrey   = '#87ffff'
   let s:deepskyblue     = '#0087d7'
   let s:green           = '#00ff00'
   let s:grey11          = '#1c1c1c'
@@ -75,11 +74,11 @@ if has('gui_running')
   let s:indianred       = '#ff5f87'
   let s:lightgoldenrod1 = '#ffff5f'
   let s:lightgoldenrod2 = '#d7d787'
-  let s:lightsteelblue  = '#afafff'
+  let s:lightsteelblue  = '#dfffff'
   let s:magenta         = '#af00af'
   let s:mediumturquoise = '#5fd7d7'
   let s:navyblue        = '#00005f'
-  let s:orange          = '#875f00'
+  let s:orange          = '#ff8700'
   let s:palegreen       = '#87d787'
   let s:red             = '#ff0000'
   let s:skyblue         = '#5fafd7'
@@ -94,7 +93,6 @@ else
   let s:darkblue        = '17'
   let s:darkgreen       = '22'
   let s:darkred         = '52'
-  let s:darkslategrey   = '123'
   let s:deepskyblue     = '32'
   let s:green           = '46'
   let s:grey11          = '234'
@@ -107,11 +105,11 @@ else
   let s:indianred       = '204'
   let s:lightgoldenrod1 = '227'
   let s:lightgoldenrod2 = '186'
-  let s:lightsteelblue  = '147'
+  let s:lightsteelblue  = '195'
   let s:magenta         = '127'
   let s:mediumturquoise = '80'
   let s:navyblue        = '17'
-  let s:orange          = '94'
+  let s:orange          = '208'
   let s:palegreen       = '114'
   let s:red             = '196'
   let s:skyblue         = '74'
@@ -132,7 +130,6 @@ exe 'let s:fg_blue            = " ' s:ui .'fg=' .s:blue            .'"'
 exe 'let s:fg_cornsilk        = " ' s:ui .'fg=' .s:cornsilk        .'"'
 exe 'let s:fg_cyan            = " ' s:ui .'fg=' .s:cyan            .'"'
 exe 'let s:fg_darkgoldenrod   = " ' s:ui .'fg=' .s:darkgoldenrod   .'"'
-exe 'let s:fg_darkslategrey   = " ' s:ui .'fg=' .s:darkslategrey   .'"'
 exe 'let s:fg_green           = " ' s:ui .'fg=' .s:green           .'"'
 exe 'let s:fg_grey15          = " ' s:ui .'fg=' .s:grey15          .'"'
 exe 'let s:fg_grey30          = " ' s:ui .'fg=' .s:grey30          .'"'
@@ -210,8 +207,8 @@ exe 'hi! SignColumn'   .s:fg_none            .s:bg_grey11          .s:attr_none
 exe 'hi! Folded'       .s:fg_mediumturquoise .s:bg_grey30          .s:attr_none
 exe 'hi! FoldColumn'   .s:fg_mediumturquoise .s:bg_grey30          .s:attr_none
 exe 'hi! Visual'       .s:fg_none            .s:bg_grey30          .s:attr_none
-exe 'hi! IncSearch'    .s:fg_darkslategrey   .s:bg_orange          .s:attr_none
-exe 'hi! Search'       .s:fg_cornsilk        .s:bg_darkgoldenrod   .s:attr_none
+exe 'hi! IncSearch'    .s:fg_grey15          .s:bg_orange          .s:attr_none
+exe 'hi! Search'       .s:fg_grey15          .s:bg_darkgoldenrod   .s:attr_none
 exe 'hi! SpellCap'     .s:fg_blue            .s:bg_darkblue        .s:attr_undl
 exe 'hi! SpellLocal'   .s:fg_green           .s:bg_darkgreen       .s:attr_undl
 exe 'hi! SpellBad'     .s:fg_red             .s:bg_darkred         .s:attr_undl
